@@ -20,8 +20,10 @@ namespace EntityLayer.Concrete
 
         [StringLength(100)]
         public string WriterImage { get; set; }
+        [StringLength(150)]
+        public string WriterAbout { get; set; }
 
-        [StringLength(50)]
+        [StringLength(200)]
         public string WriterMail { get; set; }
 
         [StringLength(20)]
